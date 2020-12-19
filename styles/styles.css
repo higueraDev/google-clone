@@ -1,7 +1,7 @@
 /* VARS */
 :root {
-    --primary-color: -moz-linear-gradient(top, #4387fd, #4683ea);
-    --primary-color-active: -moz-linear-gradient(top, #3c7ae4, #3f76d3);
+    --primary-color: linear-gradient(to bottom, #4387fd, #4683ea);
+    --primary-color-active: linear-gradient(to bottom, #3c7ae4, #3f76d3);
     --secondary-color: #f2f2f2;
     --secondary-color-focus: #4d90fe;
     --support-color: #f8f9fa;
@@ -42,7 +42,7 @@ body {
 }
 
 .button-primary {
-    background: var(--primary-color);
+    background-image: var(--primary-color);
     line-height: 3rem;
     border: 0.1rem solid #4285f4;
     color: #fff;
@@ -50,7 +50,7 @@ body {
 }
 
 .button-primary:active {
-    background: var(--primary-color-active);
+    background-image: var(--primary-color-active);
 }
 
 .button-secondary {
