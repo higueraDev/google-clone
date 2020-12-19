@@ -1,0 +1,13 @@
+/* MEDIA QUERIE min-width 793px */
+
+.footer-top{
+    text-align: left;
+}
+
+.footer-top__item{
+    margin-left: 2rem;
+}
+
+.footer-bottom__item{
+    margin: 0;
+}
