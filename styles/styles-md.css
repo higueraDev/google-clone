@@ -1,5 +1,14 @@
 /* MEDIA QUERIE min-width 793px */
 
+/* HEADER */
+.nav-list__item{
+    margin: 0;
+}
+.nav-list__item:not(:last-child){
+    margin-right: 2rem;
+}
+
+/* FOOTER */
 .footer-top{
     text-align: left;
 }
