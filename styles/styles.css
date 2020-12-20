@@ -101,6 +101,10 @@ body {
     text-decoration: underline;
 }
 
+.menu-link:hover{
+    text-decoration: none;
+}
+
 .nav-menu{
     font-size: 1.8rem;
 }
